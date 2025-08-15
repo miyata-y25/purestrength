@@ -32,12 +32,12 @@
 }
 @media screen and (max-width: 768px) {
   .about-sec__ttl {
-    font-size: 2.5em;
+    font-size: 3em;
   }
 }
 @media screen and (max-width: 640px) {
   .about-sec__ttl {
-    font-size: 1.3333333333em;
+    font-size: 2em;
   }
 }
 .about-sec__img {
@@ -73,7 +73,7 @@
 }
 @media screen and (max-width: 640px) {
   .about2-sec__ttl {
-    font-size: 1.4166666667em;
+    font-size: 2.125em;
   }
 }
 .about2-sec__txt {
@@ -84,7 +84,7 @@
 }
 @media screen and (max-width: 640px) {
   .about2-sec__txt {
-    font-size: 1.0416666667em;
+    font-size: 1.5625em;
     line-height: 2.2;
   }
 }
@@ -95,7 +95,7 @@
 @media screen and (max-width: 640px) {
   .about2-sec__note {
     text-align: right;
-    font-size: 0.9166666667em;
+    font-size: 1.375em;
   }
 }
 
@@ -112,7 +112,7 @@
 }
 @media screen and (max-width: 768px) {
   .news-sec__ttl {
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 0.25em;
   }
 }
@@ -124,7 +124,7 @@
 }
 @media screen and (max-width: 640px) {
   .news-list {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 .news-list li {
@@ -193,7 +193,7 @@
 }
 @media screen and (max-width: 640px) {
   .news-more {
-    font-size: 1.1666666667em;
+    font-size: 1.75em;
   }
 }
 .news-more a {
@@ -233,7 +233,7 @@
 }
 @media screen and (max-width: 768px) {
   .appeal-sec__ttl {
-    font-size: 1.25em;
+    font-size: 1.875em;
   }
 }
 .appeal-sec__ttl span {
@@ -259,7 +259,7 @@
 }
 @media screen and (max-width: 768px) {
   .appeal-cont__ttl {
-    width: 7.5em;
+    width: 11.25em;
   }
 }
 
@@ -278,7 +278,7 @@
 }
 @media screen and (max-width: 768px) {
   .appeal-area__ttl {
-    font-size: 2.0833333333em;
+    font-size: 3.125em;
     letter-spacing: -0.05em;
     margin-bottom: 0.5em;
   }
@@ -292,7 +292,7 @@
 }
 @media screen and (max-width: 768px) {
   .appeal-area__txt {
-    font-size: 1.1666666667em;
+    font-size: 1.75em;
     letter-spacing: -0.02em;
   }
 }
@@ -329,7 +329,7 @@
 }
 @media screen and (max-width: 768px) {
   .dakara-sec__ttl {
-    font-size: 4em;
+    font-size: 6em;
     margin-bottom: 0.25em;
   }
 }
@@ -341,7 +341,7 @@
 }
 @media screen and (max-width: 768px) {
   .dakara-sec__txt {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 .dakara-sec__txt span {
@@ -368,7 +368,7 @@
 }
 @media screen and (max-width: 768px) {
   .comfort-sec__ttl {
-    font-size: 1.8333333333em;
+    font-size: 2.75em;
   }
 }
 .comfort-sec__img {
@@ -412,7 +412,7 @@
 }
 @media screen and (max-width: 768px) {
   .comfort-icon__ttl {
-    font-size: 1.3333333333em;
+    font-size: 2em;
   }
 }
 .comfort-icon__ttl:before {
@@ -459,10 +459,11 @@
 }
 .facility-sec__ttl {
   max-width: 1100px;
-  width: 90%;
+  width: 57.2916666667%;
   margin: 0 auto;
   font-size: 9em;
   font-weight: 400;
+  line-height: 1.6;
   font-family: "Dosis", sans-serif;
   color: rgba(255, 255, 255, 0.95);
   text-shadow: -0.0347222222em 0.0347222222em 0.0694444444em rgba(0, 0, 0, 0.25);
@@ -470,17 +471,17 @@
 @media screen and (max-width: 768px) {
   .facility-sec__ttl {
     width: 100%;
-    font-size: 6.6666666667em;
+    font-size: 10em;
   }
 }
 @media screen and (max-width: 640px) {
   .facility-sec__ttl {
-    font-size: 4.1666666667em;
+    font-size: 6.25em;
   }
 }
 .facility-sec__txt {
-  max-width: 1100px;
-  width: 90%;
+  max-width: 1000px;
+  width: 57.2916666667%;
   margin: 0 auto 1em;
   font-family: "Zen Maru Gothic", serif;
   color: #54c2f0;
@@ -491,12 +492,12 @@
 @media screen and (max-width: 768px) {
   .facility-sec__txt {
     width: 100%;
-    font-size: 1.8333333333em;
+    font-size: 2.75em;
   }
 }
 @media screen and (max-width: 640px) {
   .facility-sec__txt {
-    font-size: 1.1666666667em;
+    font-size: 1.75em;
   }
 }
 .facility-sec__txt span {
@@ -529,7 +530,7 @@
 }
 @media screen and (max-width: 1440px) {
   .gym-sec {
-    padding-bottom: 7vw;
+    padding-bottom: 14vw;
     margin-bottom: -16vw;
   }
 }
@@ -545,22 +546,24 @@
   text-align: center;
   margin: 0 auto;
   font-size: 7.5em;
+  line-height: 1.6;
   font-weight: 400;
+  margin-bottom: 0.25em;
   font-family: "Dosis", sans-serif;
   color: rgba(255, 255, 255, 0.8);
 }
 @media screen and (max-width: 768px) {
   .gym-sec__ttl {
-    font-size: 4.1666666667em;
+    font-size: 6.25em;
   }
 }
 .gym-sec__logo {
   width: 13.125em;
-  margin: 0 auto -4em;
+  margin: 0 auto -4.5em;
 }
 @media screen and (max-width: 768px) {
   .gym-sec__logo {
-    width: 7.5em;
+    width: 11.25em;
     margin-bottom: 0;
   }
 }
@@ -585,7 +588,7 @@
 }
 @media screen and (max-width: 768px) {
   .gym-sec__txt {
-    font-size: 1.5em;
+    font-size: 2.25em;
   }
 }
 .gym-sec__txt img {
@@ -646,7 +649,7 @@
 }
 @media screen and (max-width: 768px) {
   .studio-sec__ttl {
-    font-size: 4.1666666667em;
+    font-size: 6.25em;
   }
 }
 .studio-sec__logo {
@@ -655,7 +658,7 @@
 }
 @media screen and (max-width: 768px) {
   .studio-sec__logo {
-    width: 18.5833333333em;
+    width: 27.875em;
     margin-bottom: 0;
   }
 }
@@ -671,7 +674,7 @@
 }
 @media screen and (max-width: 768px) {
   .studio-sec__read {
-    font-size: 0.9166666667em;
+    font-size: 1.375em;
     margin-bottom: 45vw;
   }
 }
@@ -685,7 +688,7 @@
 }
 @media screen and (max-width: 768px) {
   .studio-sec__txt {
-    font-size: 1.5em;
+    font-size: 2.25em;
   }
 }
 .studio-sec__abs {
@@ -702,7 +705,7 @@
 @media screen and (max-width: 768px) {
   .studio-sec__abs {
     left: 1em;
-    font-size: 1.3333333333em;
+    font-size: 2em;
   }
 }
 .studio-sec__abs span {
@@ -721,7 +724,7 @@
 }
 @media screen and (max-width: 768px) {
   .studio-area {
-    padding: 2em 15px;
+    padding: 2em 15px 0;
   }
 }
 .studio-area__head {
@@ -766,7 +769,7 @@
 }
 @media screen and (max-width: 768px) {
   .studio-area__read .ttl {
-    font-size: 1.3333333333em;
+    font-size: 2em;
     text-align: center;
   }
 }
@@ -775,7 +778,7 @@
 }
 @media screen and (max-width: 768px) {
   .studio-area__read .txt {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 
@@ -796,6 +799,7 @@
   .studio-cont {
     width: 100%;
     display: block;
+    margin-bottom: 3em;
   }
 }
 .studio-cont figure {
@@ -805,6 +809,23 @@
 @media screen and (max-width: 768px) {
   .studio-cont figure {
     width: 100%;
+  }
+}
+.studio-cont .logo {
+  margin-bottom: 2em;
+}
+@media screen and (max-width: 768px) {
+  .studio-cont .logo {
+    margin-bottom: 1em;
+    padding-left: 3%;
+  }
+}
+.studio-cont .logo img {
+  width: 95%;
+}
+@media screen and (max-width: 768px) {
+  .studio-cont .logo img {
+    width: 60%;
   }
 }
 .studio-cont__info {
@@ -818,22 +839,7 @@
   .studio-cont__info {
     padding-left: 3%;
     padding-right: 1%;
-  }
-}
-.studio-cont__info .logo {
-  margin-bottom: 2em;
-}
-@media screen and (max-width: 768px) {
-  .studio-cont__info .logo {
-    margin-bottom: 1em;
-  }
-}
-.studio-cont__info .logo img {
-  width: 95%;
-}
-@media screen and (max-width: 768px) {
-  .studio-cont__info .logo img {
-    width: 60%;
+    margin-top: 0;
   }
 }
 .studio-cont__info .txt {
@@ -843,7 +849,7 @@
 }
 @media screen and (max-width: 768px) {
   .studio-cont__info .txt {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 
@@ -861,11 +867,13 @@
 }
 .studio-tri figure {
   max-width: 940px;
+  width: 48.9583333333%;
   margin: 0 auto 12vw;
 }
 @media screen and (max-width: 768px) {
   .studio-tri figure {
     margin-bottom: 5vw;
+    width: auto;
   }
 }
 
@@ -883,7 +891,7 @@
 }
 @media screen and (max-width: 768px) {
   .lesson-area__txt {
-    font-size: 1.1666666667em;
+    font-size: 1.75em;
   }
 }
 .lesson-area__btn {
@@ -893,14 +901,14 @@
 }
 
 .sec {
-  margin-top: 4em;
-  padding-bottom: 4em;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 .sec__ttl {
   background: url(../img/top/about_bg.svg) no-repeat;
   background-position: bottom center;
   background-size: 100% auto;
-  padding: 0 15px calc(0em + 5vw);
+  padding: 1vw 15px calc(0em + 4vw);
   margin-bottom: 0.5em;
   position: relative;
   z-index: 1;
@@ -912,7 +920,7 @@
 }
 @media screen and (max-width: 768px) {
   .sec__ttl {
-    font-size: 3.75em;
+    font-size: 5.625em;
   }
 }
 .sec__ttl span {
@@ -942,12 +950,18 @@
 }
 @media screen and (max-width: 768px) {
   .sec__txt {
-    font-size: 1.1666666667em;
+    font-size: 1.5555555556em;
   }
 }
 
 .other-area {
   margin-top: 5em;
+}
+@media screen and (max-width: 768px) {
+  .other-area {
+    margin-top: 3em;
+    margin-bottom: 5em;
+  }
 }
 @media screen and (min-width: 769px) {
   .other-area:nth-of-type(even) .other-area__ttl {
@@ -959,10 +973,10 @@
 }
 .other-area__ttl {
   text-align: center;
+  margin-bottom: 2.375em;
 }
 @media screen and (min-width: 769px) {
   .other-area__ttl {
-    margin-bottom: 2.375em;
     position: relative;
     background: #90d7f5;
   }
@@ -1024,7 +1038,7 @@
 }
 @media screen and (max-width: 768px) {
   .other-area__bdy {
-    margin: -2.375em 0 0;
+    margin: -4.75em 0 0;
     padding: 3em 0;
   }
 }
@@ -1045,7 +1059,13 @@
   -webkit-transition: 0.3s;
   transition: 0.3s;
   max-width: 1180px;
+  width: 61.4583333333%;
   margin: 0 auto;
+}
+@media screen and (max-width: 640px) {
+  .faq-list {
+    width: auto;
+  }
 }
 .faq-list:not(:last-child) {
   margin-bottom: 3em;
@@ -1067,8 +1087,8 @@
 }
 @media screen and (max-width: 768px) {
   .faq-list__head {
-    font-size: 1em;
-    padding-left: 4.1666666667em;
+    font-size: 1.5em;
+    padding-left: 4.375em;
   }
 }
 .faq-list__head:before {
@@ -1097,8 +1117,8 @@
 }
 @media screen and (max-width: 768px) {
   .faq-list__body {
-    font-size: 1em;
-    padding-left: 5.8333333333em;
+    font-size: 1.5em;
+    padding-left: 6.25em;
   }
 }
 .faq-list__body:before {
@@ -1127,8 +1147,14 @@
 
 .access-area {
   max-width: 1130px;
+  width: 59.7883597884%;
   padding: 0 15px;
   margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .access-area {
+    width: auto;
+  }
 }
 .access-area .access-cont {
   display: -webkit-box;
@@ -1197,7 +1223,7 @@
 }
 @media screen and (max-width: 768px) {
   .access-area .access-cont__info .access-place p {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 .access-area__note {
@@ -1210,7 +1236,7 @@
   .access-area__note {
     width: 79.7222222222%;
     margin: 0 auto;
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 

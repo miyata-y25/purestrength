@@ -40,10 +40,10 @@ body {
             font-size: (50em/48);
         }
         @include max-screen($screen-sm) {
-            font-size: (30em/12);
+            font-size: (24em/8);
         }
         @include max-screen($screen-xs) {
-            font-size: (16em/12);
+            font-size: (16em/8);
         }
     }
     &__img {
@@ -74,7 +74,7 @@ body {
         letter-spacing: -0.0em;
         color: #4d4d4d;
         @include max-screen($screen-xs) {
-            font-size: (17em/12);
+            font-size: (17em/8);
         }
     }
     &__txt {
@@ -83,7 +83,7 @@ body {
         font-weight: 500;
         margin-bottom: 1em;
         @include max-screen($screen-xs) {
-            font-size: (12.5em/12);
+            font-size: (12.5em/8);
             line-height: (55/25);
         }
     }
@@ -92,7 +92,7 @@ body {
         font-weight: 500;
         @include max-screen($screen-xs) {
             text-align: right;
-            font-size: (11em/12);
+            font-size: (11em/8);
         }
     }
 }
@@ -107,7 +107,7 @@ body {
         letter-spacing: 0.2em;
         margin-bottom: 1em;
         @include max-screen($screen-sm) {
-            font-size: (24em/12);
+            font-size: (24em/8);
             margin-bottom: 0.25em;
         }
     }
@@ -118,7 +118,7 @@ body {
     margin: 0 auto;
     font-size: (18em/16);
     @include max-screen($screen-xs) {
-        font-size: (12em/12);
+        font-size: (12em/8);
     }
     li {
         border-bottom: 1px solid #CCC;
@@ -169,7 +169,7 @@ body {
     margin-top: 2em;
     font-family: $ZenM-font;
     @include max-screen($screen-xs) {
-        font-size: (14em/12);
+        font-size: (14em/8);
     }
     a {
         display: inline-block;
@@ -211,7 +211,7 @@ body {
         line-height: 1.4;
         margin-bottom: 1em;
         @include max-screen($screen-sm) {
-            font-size: (15em/12);
+            font-size: (15em/8);
         }
         span {
             font-size: (60em/40);
@@ -230,7 +230,7 @@ body {
         width: (194em/16);
         margin: 0 auto 1em;
         @include max-screen($screen-sm) {
-            width: (90em/12);
+            width: (90em/8);
         }
     }
 }
@@ -246,7 +246,7 @@ body {
         line-height: 1.6;
         letter-spacing: -0.02em;
         @include max-screen($screen-sm) {
-            font-size: (25em/12);
+            font-size: (25em/8);
             letter-spacing: -0.05em;
             margin-bottom: 0.5em;
         }
@@ -258,7 +258,7 @@ body {
         font-weight: bold;
         margin-bottom: 1em;
         @include max-screen($screen-sm) {
-            font-size: (14em/12);
+            font-size: (14em/8);
             letter-spacing: -0.02em;
         }
     }
@@ -288,7 +288,7 @@ body {
         transform: rotate(-5deg);
         margin-bottom: 0.5em;
         @include max-screen($screen-sm) {
-            font-size: (48em/12);
+            font-size: (48em/8);
             margin-bottom: 0.25em;
         }
     }
@@ -298,7 +298,7 @@ body {
         line-height: 1.6;
         letter-spacing: -0.02em;
         @include max-screen($screen-sm) {
-            font-size: (12em/12);
+            font-size: (12em/8);
         }
         span {
             display: block;
@@ -321,7 +321,7 @@ body {
         margin-bottom: 0;
         font-weight: 500;
         @include max-screen($screen-sm) {
-            font-size: (22em/12);
+            font-size: (22em/8);
         }
     }
     &__img {
@@ -358,7 +358,7 @@ body {
         padding: 0 0 0.75em;
         margin-bottom: 2em;
         @include max-screen($screen-sm) {
-            font-size: (16em/12);
+            font-size: (16em/8);
         }
         &:before {
             content: "";
@@ -399,24 +399,25 @@ body {
     }
     &__ttl {
         max-width: 1100px;
-        width: 90%;
+        width: percentage(1100/1920);
         margin: 0 auto;
         font-size: (144em/16);
         font-weight: 400;
+        line-height: 1.6;
         font-family: $Dosis-font;
         color: rgba(#FFF,0.95);
         text-shadow: (-5em/144) (5em/144) (10em/144) rgba(#000,.25);
         @include max-screen($screen-sm) {
             width: 100%;
-            font-size: (80em/12);
+            font-size: (80em/8);
         }
         @include max-screen($screen-xs) {
-            font-size: (50em/12);
+            font-size: (50em/8);
         }
     }
     &__txt {
-        max-width: 1100px;
-        width: 90%;
+        max-width: 1000px;
+        width: percentage(1100/1920);
         margin: 0 auto 1em;
         font-family: $ZenM-font;
         color: $aqa;
@@ -425,10 +426,10 @@ body {
         letter-spacing: -0.02em;
         @include max-screen($screen-sm) {
             width: 100%;
-            font-size: (22em/12);
+            font-size: (22em/8);
         }
         @include max-screen($screen-xs) {
-            font-size: (14em/12);
+            font-size: (14em/8);
         }
         span {
             display: inline-block;
@@ -459,7 +460,7 @@ body {
     position: relative;
     z-index: 1;
     @include max-screen(1440px) {
-        padding-bottom: 7vw;
+        padding-bottom: 14vw;
         margin-bottom: -16vw;
     }
     @include max-screen($screen-sm) {
@@ -472,18 +473,20 @@ body {
         text-align: center;
         margin: 0 auto;
         font-size: (120em/16);
+        line-height: 1.6;
         font-weight: 400;
+        margin-bottom: 0.25em;
         font-family: $Dosis-font;
         color: rgba(#FFF,0.8);
         @include max-screen($screen-sm) {
-            font-size: (50em/12);
+            font-size: (50em/8);
         }
     }
     &__logo {
         width: (210em/16);
-        margin: 0 auto -4em;
+        margin: 0 auto -4.5em;
         @include max-screen($screen-sm) {
-            width: (90em/12);
+            width: (90em/8);
             margin-bottom: 0;
         }
     }
@@ -497,7 +500,7 @@ body {
         align-items: center;
         justify-content: center;
         @include max-screen($screen-sm) {
-            font-size: (18em/12);
+            font-size: (18em/8);
         }
         img {
             width: (240em/44);
@@ -547,14 +550,14 @@ body {
         color: rgba(#FFF,0.8);
         line-height: 1.4;
         @include max-screen($screen-sm) {
-            font-size: (50em/12);
+            font-size: (50em/8);
         }
     }
     &__logo {
         width: (590em/16);
         margin: 0 auto 0;
         @include max-screen($screen-sm) {
-            width: (223em/12);
+            width: (223em/8);
             margin-bottom: 0;
         }
     }
@@ -568,7 +571,7 @@ body {
         padding: 0.25em 1.25em;
         margin-bottom: 1em;
         @include max-screen($screen-sm) {
-            font-size: (11em/12);
+            font-size: (11em/8);
             margin-bottom: 45vw;
         }
     }
@@ -580,7 +583,7 @@ body {
         line-height: 1.4;
         margin-bottom: 1em;
         @include max-screen($screen-sm) {
-            font-size: (18em/12);
+            font-size: (18em/8);
         }
     }
     &__abs {
@@ -594,7 +597,7 @@ body {
         transform: rotate(-3.6deg);
         @include max-screen($screen-sm) {
             left: 1em;
-            font-size: (16em/12);
+            font-size: (16em/8);
         }
         span {
             display: inline-block;
@@ -611,7 +614,7 @@ body {
     padding: 4em 15px 0;
     margin-bottom: 4em;
     @include max-screen($screen-sm) {
-        padding: 2em 15px;
+        padding: 2em 15px 0;
     }
     &__head {
         display: flex;
@@ -639,14 +642,14 @@ body {
             font-weight: 600;
             margin-bottom: 0.25em;
             @include max-screen($screen-sm) {
-                font-size: (16em/12);
+                font-size: (16em/8);
                 text-align: center;
             }
         }
         .txt {
             font-size: (19em/16);
             @include max-screen($screen-sm) {
-                font-size: (12em/12);
+                font-size: (12em/8);
             }
         }
     }
@@ -660,6 +663,7 @@ body {
     @include max-screen($screen-sm) {
         width: 100%;
         display: block;
+        margin-bottom: 3em;
     }
     figure {
         width: percentage(640/1100);
@@ -668,31 +672,33 @@ body {
             width: 100%;
         }
     }
+    .logo {
+        margin-bottom: 2em;
+        @include max-screen($screen-sm) {
+            margin-bottom: 1em;
+            padding-left: 3%;
+        }
+        img {
+            width: 95%;
+            @include max-screen($screen-sm) {
+                width: 60%;
+            }
+        }
+    }
     &__info {
         margin-top: 1em;
         flex: 1;
         @include max-screen($screen-sm) {
             padding-left: 3%;
             padding-right: 1%;
-        }
-        .logo {
-            margin-bottom: 2em;
-            @include max-screen($screen-sm) {
-                margin-bottom: 1em;
-            }
-            img {
-                width: 95%;
-                @include max-screen($screen-sm) {
-                    width: 60%;
-                }
-            }
+            margin-top: 0;
         }
         .txt {
             font-size: (18em/16);
             font-weight: 500;
             line-height: 2em;
             @include max-screen($screen-sm) {
-                font-size: (12em/12);
+                font-size: (12em/8);
             }
         }
     }
@@ -708,9 +714,11 @@ body {
     }
     figure {
         max-width: 940px;
+        width: percentage(940/1920);
         margin: 0 auto 12vw;
         @include max-screen($screen-sm) {
             margin-bottom: 5vw;
+            width: auto;
         }
     }
 }
@@ -725,7 +733,7 @@ body {
         color: #4d4d4d;
         margin-bottom: 0.5em;
         @include max-screen($screen-sm) {
-            font-size: (14em/12);
+            font-size: (14em/8);
         }
     }
     &__btn {
@@ -736,13 +744,13 @@ body {
 }
 
 .sec {
-    margin-top: 4em;
-    padding-bottom: 4em;
+    margin-top: 5em;
+    margin-bottom: 5em;
     &__ttl {
         background: url(../img/top/about_bg.svg) no-repeat;
         background-position: bottom center;
         background-size: 100% auto;
-        padding: 0 15px calc(0em + 5vw);
+        padding: 1vw 15px calc(0em + 4vw);
         margin-bottom: 0.5em;
         position: relative;
         z-index: 1;
@@ -752,7 +760,7 @@ body {
         line-height: 1.4;
         font-weight: 500;
         @include max-screen($screen-sm) {
-            font-size: (45em/12);
+            font-size: (45em/8);
         }
         span {
             display: block;
@@ -776,13 +784,17 @@ body {
         font-weight: bold;
         margin-bottom: 1em;
         @include max-screen($screen-sm) {
-            font-size: (14em/12);
+            font-size: (14em/9);
         }
     }
 }
 
 .other-area {
     margin-top: 5em;
+    @include max-screen($screen-sm) {
+        margin-top: 3em;
+        margin-bottom: 5em;
+    }
     &:nth-of-type(even) {
         @include min-screen($screen-sm + 1) {
             .other-area__ttl {
@@ -795,8 +807,8 @@ body {
     }
     &__ttl {
         text-align: center;
+        margin-bottom: (38em/16);
         @include min-screen($screen-sm + 1) {
-            margin-bottom: (38em/16);
             position: relative;
             background: #90d7f5;
             &:after {
@@ -849,7 +861,7 @@ body {
         margin: (-38em/16) 0 0;
         padding: 3em 15px 3em;
         @include max-screen($screen-sm) {
-            margin: (-38em/16) 0 0;
+            margin: (-76em/16) 0 0;
             padding: 3em 0;
         }
     }
@@ -868,7 +880,11 @@ body {
 .faq-list {
     transition: .3s;
     max-width: 1180px;
+    width: percentage(1180/1920);
     margin: 0 auto;
+    @include max-screen($screen-xs) {
+        width: auto;
+    }
     &:not(:last-child) {
         margin-bottom: 3em;
         @include max-screen($screen-sm) {
@@ -887,8 +903,8 @@ body {
         background: #cdedfb;
         font-family: $ZenM-font;
         @include max-screen($screen-sm) {
-            font-size: (12em/12);
-            padding-left: (50em/12);
+            font-size: (12em/8);
+            padding-left: (35em/8);
         }
         &:before {
             content: "Q";
@@ -913,8 +929,8 @@ body {
         font-weight: 500;
         white-space: pre-wrap;
         @include max-screen($screen-sm) {
-            font-size: (12em/12);
-            padding-left: (70em/12);
+            font-size: (12em/8);
+            padding-left: (50em/8);
         }
         &:before {
             content: "A";
@@ -942,8 +958,12 @@ body {
 
 .access-area {
     max-width: 1130px;
+    width: percentage(1130/1890);
     padding: 0 15px;
     margin: 0 auto;
+    @include max-screen($screen-sm) {
+        width: auto;
+    }
     .access-cont {
         display: flex;
         align-items: center;
@@ -980,7 +1000,7 @@ body {
                     font-size: (20em/16);
                     flex: 1;
                     @include max-screen($screen-sm) {
-                        font-size: (12em/12);
+                        font-size: (12em/8);
                     }
                 }
             }
@@ -994,7 +1014,7 @@ body {
         @include max-screen($screen-sm) {
             width: percentage(574/720);
             margin: 0 auto;
-            font-size: (12em/12);
+            font-size: (12em/8);
 
         }
     }

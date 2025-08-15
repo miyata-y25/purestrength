@@ -678,14 +678,14 @@ sup {
 ==================================================================================================*/
 .site-header {
   width: 100%;
-  height: 9.375em;
+  height: 6.25em;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
   background: #FFF;
   padding: 0 1em;
-  font-size: clamp(0.75em, 1.1111111111vw, 1em);
+  font-size: clamp(0.5em, 0.8333333333vw, 1em);
 }
 @media screen and (max-width: 768px) {
   .site-header {
@@ -724,40 +724,52 @@ sup {
   height: 100%;
 }
 .site-header__logo img.logo {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  max-width: 530px;
-  width: 48.1818181818%;
+  max-width: 400px;
 }
 @media screen and (min-width: 769px) {
   .site-header__logo img.logo {
+    width: auto;
+    height: 90%;
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
         -ms-flex-order: 2;
             order: 2;
   }
 }
+@media screen and (max-width: 768px) {
+  .site-header__logo img.logo {
+    width: 36.3636363636%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
 .site-header__logo .txt {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  max-width: 420px;
-  width: 38.1818181818%;
+  max-width: 320px;
 }
 @media screen and (min-width: 769px) {
   .site-header__logo .txt {
+    height: 64%;
+    width: auto;
     margin-right: 1em;
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
   }
+  .site-header__logo .txt img {
+    width: auto;
+    height: 100%;
+  }
 }
 @media screen and (max-width: 768px) {
   .site-header__logo .txt {
+    width: 29.0909090909%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     margin-left: 1em;
   }
 }
@@ -828,8 +840,8 @@ sup {
 }
 
 .wrap {
-  font-size: clamp(0.75em, 1.1111111111vw, 1em);
-  margin-top: 9.375em;
+  font-size: clamp(0.5em, 0.8333333333vw, 1em);
+  margin-top: 6.25em;
   color: #1a1a1a;
 }
 @media screen and (max-width: 768px) {
@@ -842,7 +854,7 @@ sup {
     footer
 ==================================================================================================*/
 .site-footer {
-  font-size: clamp(0.75em, 1.1111111111vw, 1em);
+  font-size: clamp(0.75em, 0.8333333333vw, 1em);
   background: #54c2f0;
   padding: 1em 15px;
   color: #FFF;
