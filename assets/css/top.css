@@ -102,6 +102,19 @@
 .news-sec {
   padding: 2em 15px 4em;
 }
+.news-sec.--page {
+  padding: 5em 15px;
+}
+@media screen and (max-width: 768px) {
+  .news-sec.--page {
+    font-size: 1.25em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .news-sec.--page .news-list li {
+    padding: 1em 0.5em;
+  }
+}
 .news-sec__ttl {
   text-align: center;
   font-family: "Dosis", sans-serif;
@@ -161,6 +174,11 @@
   font-weight: 500;
   font-family: "Zen Maru Gothic", serif;
 }
+@media screen and (max-width: 768px) {
+  .news-list li time {
+    margin-right: 2em;
+  }
+}
 .news-list li a {
   font-weight: 500;
 }
@@ -213,6 +231,13 @@
   display: block;
   width: 21.5em;
   margin: 0 auto;
+}
+.camp-area__txt {
+  text-align: center;
+  color: #444;
+  font-size: 1.4em;
+  font-family: 500;
+  margin-bottom: 1em;
 }
 
 .appeal-sec {
@@ -1259,4 +1284,192 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.sec-single {
+  padding: 5em 15px;
+}
+.sec-single__ttl {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.sec-single__ttl__en {
+  display: block;
+  font-size: 3em;
+  font-family: "Zen Maru Gothic", serif;
+  position: relative;
+}
+
+.single-area,
+.page-area {
+  max-width: 1000px;
+  margin: 0 auto 5em;
+}
+@media screen and (max-width: 1366px) {
+  .single-area,
+  .page-area {
+    font-size: 1.5em;
+  }
+}
+.single-area__date,
+.page-area__date {
+  text-align: right;
+  margin-bottom: 1em !important;
+}
+.single-area > *,
+.page-area > * {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.single-area > *:not(:last-child),
+.page-area > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+.single-area a,
+.page-area a {
+  color: #ff9c00;
+  text-decoration: underline;
+}
+.single-area a:hover,
+.page-area a:hover {
+  text-decoration: none;
+}
+.single-area ul,
+.page-area ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+.single-area ol,
+.page-area ol {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+}
+.single-area li + li,
+.page-area li + li {
+  margin-top: 0.5em;
+}
+.single-area h2, .single-area h3, .single-area h4, .single-area h5, .single-area h6,
+.page-area h2,
+.page-area h3,
+.page-area h4,
+.page-area h5,
+.page-area h6 {
+  font-weight: bold;
+  margin-bottom: 1.5em !important;
+}
+.single-area h2:not(:first-child), .single-area h3:not(:first-child), .single-area h4:not(:first-child), .single-area h5:not(:first-child), .single-area h6:not(:first-child),
+.page-area h2:not(:first-child),
+.page-area h3:not(:first-child),
+.page-area h4:not(:first-child),
+.page-area h5:not(:first-child),
+.page-area h6:not(:first-child) {
+  margin-top: 3em;
+}
+.single-area h2,
+.page-area h2 {
+  font-size: 1.5em;
+  background: #f2f2f2;
+  border-left: 0.25em solid #ff9c00;
+  padding: 0.75em 0.5em;
+}
+.single-area h3,
+.page-area h3 {
+  font-size: 1.25em;
+  background: #ff9c00;
+  color: #FFF;
+  padding: 0.5em 0.75em;
+}
+.single-area h4,
+.page-area h4 {
+  font-size: 1.25em;
+  border-bottom: 2px solid #ff9c00;
+  padding: 0.5em 0;
+}
+.single-area h5,
+.page-area h5 {
+  font-size: 1em;
+  background: #f2f2f2;
+  padding: 0.75em 0.5em;
+}
+.single-area h6,
+.page-area h6 {
+  font-size: 1em;
+}
+
+.page-area > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+.page-area h2, .page-area h3, .page-area h4, .page-area h5, .page-area h6 {
+  margin-bottom: 1em !important;
+}
+.page-area h2:not(:first-child), .page-area h3:not(:first-child), .page-area h4:not(:first-child), .page-area h5:not(:first-child), .page-area h6:not(:first-child) {
+  margin-top: 2em;
+}
+
+.wp-pagenavi {
+  margin: 40px auto;
+  font-size: 12px;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #54c2f0;
+}
+.wp-pagenavi a {
+  color: #54c2f0;
+}
+.wp-pagenavi span.current,
+.wp-pagenavi a.page,
+.wp-pagenavi span.pages {
+  margin: 0 5px;
+  border: solid 1px #54c2f0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.wp-pagenavi span.current {
+  background: #54c2f0;
+  color: #fff;
+}
+.wp-pagenavi span.pages {
+  border: 0px;
+}
+.wp-pagenavi a.page {
+  background: none;
+}
+.wp-pagenavi a.page:hover {
+  color: #54c2f0;
+}
+.wp-pagenavi .first,
+.wp-pagenavi .extend {
+  margin-right: 10px;
+}
+.wp-pagenavi .previouspostslink,
+.wp-pagenavi .nextpostslink {
+  display: none;
 }
